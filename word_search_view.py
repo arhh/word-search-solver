@@ -1,5 +1,5 @@
 from tkinter import *
-from WordSearchLogic import Logic
+from word_search_controller import Logic
 
 class LetterField(object):
     """Class for representing a single cell in word search grid.
