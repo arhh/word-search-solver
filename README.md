@@ -13,5 +13,5 @@ A word search solver written in Python 3.
   * The location of the **first character** of the matched words will be highlighted in the word search.
   
 ## Issues:
-  * Functional but not efficient.
-  * The "model-view-controller" concept is not fully adhered to in this implementation.
+  * Not very efficient.
+  * The "model-view-controller" concept is not fully adhered to in the current implementation.
