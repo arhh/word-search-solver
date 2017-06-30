@@ -1,4 +1,4 @@
-import wsmodel as model
+import word_search_model as model
 
 class Logic(object):
     """Class representing the word search solver controller.
