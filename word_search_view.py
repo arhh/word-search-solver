@@ -145,7 +145,7 @@ class WordSearchGUI(object):
         self.bottompiece.pack()
         
         #Create multi-function action button on root window:
-        self.action_button = Button(self.bottompiece, text = "Set up word search", command = self.open_editor)
+        self.action_button = Button(self.bottompiece, text = "Set up Word Search", command = self.open_editor)
         self.action_button.pack()
 
         self.root.mainloop()
