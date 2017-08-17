@@ -1,9 +1,9 @@
 # word-search-solver
 A word search solver written in Python 3.
   
-## Requirements to Run:
+## Requirements:
   * Python 3
-  * tkinter
+  * tkinter package
   
   
 ## Usage:
