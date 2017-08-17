@@ -35,7 +35,5 @@ class Logic(object):
 
     def solve(self):
         """Call word search solver model to solve word search."""
-        print("logic is calling model") # For debugging purposes
         result = model.solve(self.grid, self.words_to_find)
-        print(result) # For debugging purposes
         return result
