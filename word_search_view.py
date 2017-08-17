@@ -36,7 +36,7 @@ class WordSearchGUI(object):
         """
         #Create dialogue box to configure empty words earch:
         self.customiser = Toplevel(self.root)
-        self.customiser.title("Word search Configuration")
+        self.customiser.title("Word Search Configuration")
         
         #Widgets of dialogue box
         self.controls = Frame(self.customiser)
