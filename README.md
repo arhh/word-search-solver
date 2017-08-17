@@ -7,13 +7,13 @@ A word search solver written in Python 3.
   
   
 ## Usage:
-  * Execute word_search_gui.py
+  * Execute word_search_view.py
+  * Click the button "Set up Word Search"
   * Specify number of rows and columns, and the words to find in the "Wordsearch Configuration" window.
-  * Click "Generate Grid" to generate an empty grid and close the configuration window.
+  * Click "Generate Grid" to generate an empty grid, the configuration window will close.
   * Fill in the empty grid and click "Solve Wordsearch".
-  * The location of the **first character** of the matched words will be highlighted in the word search.
+  * The location of the first character of the matched words will be highlighted in the word search.
   
   
-## Flaws:
-  * Not very efficient.
-  * The "model-view-controller" concept is not fully adhered to in the current implementation.
+## Known Limitations:
+  * Maximum grid size is 20 x 20.
