@@ -66,7 +66,6 @@ class WordSearchGUI(object):
         for word in wordlist:
             self.words[word] = False
         self.logic.set_words_to_find(self.words)
-        print(self.words)
 
     def solve(self):
         """Solve the word search.
